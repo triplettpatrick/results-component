@@ -120,7 +120,7 @@ div.summary > h3 {
     padding-top: 20px;
     font-size: 2em;
     font-weight: 800;
-    color: rgba(0, 0, 0, 1.0);
+    color: rgb(10, 6, 21);
     margin-bottom: 13%;
     margin-left: 15%;
 }
@@ -179,8 +179,9 @@ div.visual-container i {
 
 button.continue {
     padding: 15px 60px;
+    width: 70%;
     border-radius: 25px;
-    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: rgb(10, 6, 21);
     border: none;
     margin-top: 13%;
     color: #fff;
@@ -189,14 +190,14 @@ button.continue {
 button.continue:hover {
     background: #fff;
     border: 1px solid black;
-    color: #000;
     cursor: pointer;
+    color: #000;
 }
 
 @media (max-width: 800px) {
     div.card-container section {
         width: 100%;
-        margin: 0 50px;
+        /* margin: 0 50px; */
         display: block;
     }
 
